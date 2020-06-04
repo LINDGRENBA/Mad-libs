@@ -1,12 +1,12 @@
 # Madlibs Form Test
 
-#### jQuery and JavaScript Form exercise for Epicodus, June 02,2020
+#### jQuery and JavaScript Form exercise for Epicodus, June 3rd ,2020
 
-#### By Brittany Lindgren and Nikolas Kososik
+#### By Brittany Lindgren, Mariel Hamson, and Nikolas Kososik
 
 ## Description
 
-This project uses JavaScript and jQuery to create a fun interactive web page where the user can make the dog and cat 'talk' to each other.
+This project uses JavaScript and jQuery to create a fun interactive web page where the user can make a mad-lib.
 
 ## Setup/Installation Requirements
 
@@ -30,9 +30,10 @@ Please feel free to contact me at nikolas.kososik@gmail.com.
 * CSS
 * JavaScript
 * jQuery
+* Chrome DevTools
 
 ### License
 
 *This site is licensed under the MIT license.*
 
-Copyright (c) 2020 **_Brittany A Lindgren and Nikolas Kososik_**
+Copyright (c) 2020 **_Brittany A Lindgren, Mariel Hamson, and Nikolas Kososik_**
