@@ -8,12 +8,13 @@ $(document).ready(function() {
     const verbInput = $("input#verb").val();
     const nounInput = $("input#noun").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    let userInputs = [person1Input, person2Input, animalInput, exclamationInput, verbInput, nounInput];
+    let identifications = ["person1", "person2", "animal", "exclamation", "verb", "noun"];
+    let index = 0;
+    identifications.forEach(function(identification) {
+      $("." + identification).text(userInputs[index]);
+      index += 1; 
+    });
 
     $("#story").show();
   });
